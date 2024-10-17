@@ -1,0 +1,334 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.box {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.invest-options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.invest-options ul li {
+    margin: 10px 0;
+}
+
+.invest-options ul li a {
+    text-decoration: none;
+    color: #003366;
+}
+
+.help-form input, .help-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.help-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.help-form button:hover {
+    background-color: #cc5200;
+}
+
+/* Ad Buttons (moved to left) */
+.ad-buttons {
+    text-align: center;
+}
+
+.ad {
+    margin-bottom: 20px;
+}
+
+.ad button {
+    padding: 10px;
+    width: 100%;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ad button:hover {
+    background-color: #cc5200;
+}
+
+/* Main Content Styles */
+.content {
+    width: 75%;
+    padding: 0 20px;
+}
+
+.content h1 {
+    font-size: 2em;
+    color: #003366;
+}
+
+.info-box {
+    margin: 20px 0;
+}
+
+.info-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-box table th, .info-box table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.info-box table a {
+    text-decoration: none;
+    color: #003366;
+}
+
+/* Right Sidebar Placeholder */
+.right-sidebar {
+    width: 0; /* Right sidebar is now removed */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .sidebar, .content {
+        width: 100%;
+    }
+}
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.box {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.invest-options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.invest-options ul li {
+    margin: 10px 0;
+}
+
+.invest-options ul li a {
+    text-decoration: none;
+    color: #003366;
+}
+
+.help-form input, .help-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.help-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.help-form button:hover {
+    background-color: #cc5200;
+}
+
+/* Ad Buttons (moved to left) */
+.ad-buttons {
+    text-align: center;
+}
+
+.ad {
+    margin-bottom: 20px;
+}
+
+.ad button {
+    padding: 10px;
+    width: 100%;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ad button:hover {
+    background-color: #cc5200;
+}
+
+/* Main Content Styles */
+.content {
+    width: 75%;
+    padding: 0 20px;
+}
+
+.content h1 {
+    font-size: 2em;
+    color: #003366;
+}
+
+.info-box {
+    margin: 20px 0;
+}
+
+.info-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-box table th, .info-box table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.info-box table a {
+    text-decoration: none;
+    color: #003366;
+}
+
+/* Right Sidebar Placeholder */
+.right-sidebar {
+    width: 0; /* Right sidebar is now removed */
+}
+
+/* Responsiveness */
+
+/* For tablet screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .sidebar, .content {
+        width: 100%;
+    }
+    
+    .sidebar {
+        padding-right: 0;
+    }
+}
+
+/* For smaller mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .box, .info-box {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .content h1 {
+        font-size: 1.5em;
+    }
+    
+    .help-form input, .help-form textarea, .help-form button {
+        padding: 8px;
+        font-size: 14px;
+    }
+    
+    .ad button {
+        padding: 8px;
+        font-size: 14px;
+    }
+    
+    .info-box table th, .info-box table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
+

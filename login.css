@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #007bff;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.logo h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #ffdd57;
+}
+
+.logo p {
+    margin: 5px 0 0;
+    color: #fff;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.login-buttons button {
+    background-color: #ffdd57;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-buttons button:hover {
+    background-color: #ffc107;
+}
+
+.links a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #343a40;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #343a40;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.dropdown li {
+    text-align: left;
+}
+
+.navbar li:hover .dropdown {
+    display: block;
+}
+
+.dropdown a {
+    padding: 10px;
+    display: block;
+    white-space: nowrap;
+}
+
+.dropdown a:hover {
+    background-color: #007bff;
+}
+
+.login-buttons button {
+    background-color: #ffdd57;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-buttons button:hover {
+    background-color: #ffc107;
+}
+
+.links a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #343a40;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #343a40;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.dropdown li {
+    text-align: left;
+}
+
+.navbar li:hover .dropdown {
+    display: block;
+}
+
+.dropdown a {
+    padding: 10px;
+    display: block;
+    white-space: nowrap;
+}
+
+.dropdown a:hover {
+    background-color: #007bff;
+}
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav h1 {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.auth-buttons .login-btn, .auth-buttons .register-btn {
+    background-color: white;
+    color: #003366;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.auth-buttons .login-btn:hover, .auth-buttons .register-btn:hover {
+    background-color: #e6e6e6;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.toggle-password {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login-btn:hover {
+    background-color: #ff3300;
+}
+
+.extra-links {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.extra-links a {
+    color: #003366;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 30px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  width: 20%;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  color: #007bff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #007bff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .footer-column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+} 
+/* Default styles for larger screens are already in place */
+
+/* Mobile-first responsiveness */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 15px 30px;
+    text-align: center;
+  }
+
+  .header-right {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .login-buttons button {
+    margin-bottom: 10px;
+  }
+
+  .links a {
+    margin: 5px 0;
+    display: block;
+  }
+
+  nav .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar a {
+    padding: 8px;
+    margin: 2px 0;
+  }
+
+  /* Adjust footer layout */
+  .footer-container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Adjust main login container */
+  main {
+    height: auto;
+    padding: 20px;
+  }
+
+  .login-container {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* Adjust font sizes for smaller screens */
+  h1, h2, .logo h1 {
+    font-size: 1.5em;
+  }
+
+  p, .navbar a, .extra-links, .footer-bottom {
+    font-size: 0.9em;
+  }
+
+  /* Social icons adjustments */
+  .social-icons {
+    justify-content: center;
+  }
+
+  .social-icons a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Additional adjustments for very small screens */
+  .container {
+    padding: 10px 20px;
+  }
+
+  .navbar a {
+    font-size: 0.85em;
+  }
+
+  .login-btn, .auth-buttons .login-btn, .auth-buttons .register-btn {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  .footer-container {
+    padding: 0 10px;
+  }
+
+  .footer-bottom {
+    font-size: 0.8em;
+  }
+}
